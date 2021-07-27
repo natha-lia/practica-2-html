@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <h2>Inscripción</h2>
+    </head>
+    <br>
+
+    <body>
+        <div id="container">
+            <form>
+                
+                <label for="name">Primer nombre *</label>
+                <input type="text" placeholder="Nombre" id="name"required />
+                <label for="secondName">Secundo nombre *</label>
+                <input type="text" placeholder="Nombre" id="secondName" />
+
+                <br/>
+                <br/>
+                <label for="lastName">Primer apellido *</label>
+                <input type="text" placeholder="Apellido paterno" id="lastName"required />
+                <label for="secondLastName">Segundo apellido *</label>
+                <input type="text" placeholder="Apellido materno" id="secondLastName" />
+
+                <br/>
+                <br/>
+                <label for="birthday">Fecha de Nacimiento *</label>
+                <input type="date" id="birthday" required />
+
+                <br/>
+                <br/>
+                <label for="phone">Número de Teléfono *</label>
+                <input type="tel" id="phone" placeholder="Teléfono" required />
+
+                <br>
+                <br>
+                <label for="email">Correo Electrónico *</label>
+                <input type="email"  id="email" placeholder="E-mail" required />
+
+                <br>
+                <br>
+                <label for="male">Hombre</label>
+                <input type="radio" name="gender" id="man" value="Hombre" checked />
+                <label for="female">Mujer</label>
+                <input type="radio" name="gender" id="female" value="Mujer" />
+
+                <br>
+                <br>
+                <h4>¿Cuáles son tus intereses?</h4>
+
+                <label for="painting">Pintura</label>
+                <input type="checkbox" name="interest" id="painting" value="Pintura" />
+
+                <label for="photography">Fotografía</label>
+                <input type="checkbox" name="interest" id="photography" value="Fotografía" />
+
+                <label for="design">Diseño Gráfico</label>
+                <input type="checkbox" name="interest" id="design" value="Diseño gráfico" />
+
+                <label for="computers">Informática</label>
+                <input type="checkbox" name="interest" id="computer" value="Informática" />
+                
+                <br>
+                <br>
+                <label for="pwd">Contraseña *</label>
+                <input type="password" placeholder="Clave" id="pwd"  required /> 
+
+                <br>
+                <br>
+                <input type="submit" />
+
+            </form>
+        </div>
+    </body>
+</html>
